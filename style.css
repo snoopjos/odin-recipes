@@ -27,19 +27,17 @@
     background-color: #90ee90;
     font-weight: bold;
   }
-
-  /* not able to make them into buttons or be side by side */
-  .font {
+/* no ID needed, just classes for unique sets */
+  .black, .yellow {
     font-size: 28px;
     font-family:Helvetica, "Times New Roman", sans-serif;
   }
 
-  #black {
+  .black {
     background-color: black;
     color: white;
   }
 
-  #yellow {
+  .yellow {
     background-color: yellow;
-    color: black;
   }
