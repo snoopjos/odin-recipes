@@ -1,43 +1,25 @@
-/* .alert-text {
-    color: red;
-  }
+body {
+  background-color:thistle;
+  font-family: "papyrus";
+}
+h1 {
+  background-color: wheat;
+  text-align: center;
+}
 
-  img {
-    height: auto;
-    width: 250px;
-  }
-   */
- 
+/* need to work on the before/after color of buttons as they look wrong currently */
+button a:link {
+  color: rgb(35, 58, 117);
+  background-color: antiquewhite;
+  font-size:x-large;
+  margin: 10px;
+  font-family: "copperplate";
+}
 
-  .odd {
-    background-color: #ffc0cb;
-    font-family: Verdana, "dejaVu Sans", sans-serif;
-  }
-  
-  .adjuste-font-size{
-    font-size: 24px;
-  }
-
-  #two {
-    color: rgb(0, 0, 255);
-    font-size: 36px;
-  }
-
-  #four {
-    background-color: #90ee90;
-    font-weight: bold;
-  }
-/* no ID needed, just classes for unique sets */
-  .black, .yellow {
-    font-size: 28px;
-    font-family:Helvetica, "Times New Roman", sans-serif;
-  }
-
-  .black {
-    background-color: black;
-    color: white;
-  }
-
-  .yellow {
-    background-color: yellow;
-  }
+button a:visited {
+  color: white;
+  background-color: antiquewhite;
+  font-size:x-large;
+  margin: 10px;
+  font-family: "copperplate";
+}
