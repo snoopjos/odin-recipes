@@ -2,9 +2,18 @@ body {
   background-color:thistle;
   font-family: "papyrus";
 }
+
 h1 {
   background-color: wheat;
   text-align: center;
+  color: green;
+}
+
+/* In order to create a border I had to make a class for h1 */
+.box {
+  padding: 20px;
+  border: solid 5px green;
+  margin-bottom: 50px;
 }
 
 /* need to work on the before/after color of buttons as they look wrong currently */
